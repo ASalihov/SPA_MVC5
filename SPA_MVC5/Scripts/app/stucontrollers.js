@@ -5,3 +5,5 @@ stucontrollers.controller("GetStudentsList", function ($scope, $http) {
         $scope.students = data;
     })
 });
+
+stucontrollers.controller("AddStudent")

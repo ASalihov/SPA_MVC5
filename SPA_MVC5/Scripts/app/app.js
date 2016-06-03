@@ -8,14 +8,14 @@ module.config(['$routeProvider', function ($routeProvider) {
             controller: 'GetStudentsList'
         }).
         when('/addstudent', {
-            templateUrl: 'templates/home.html',
-            controller: 'GetStudentsList'
+            templateUrl: 'templates/addstudent.html',
+            controller: 'AddStudent'
         }).
         when('/allstudents', {
-            templateUrl: 'templates/home.html',
+            templateUrl: 'templates/allstudents.html',
             controller: 'GetStudentsList'
         }).
-        otherwise({
-            redirectTo: '/home'
-        });
-}])
+    otherwise({
+        redirectTo: '/home'
+    });
+}]);
