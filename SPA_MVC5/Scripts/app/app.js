@@ -7,11 +7,11 @@ module.config(['$routeProvider', function ($routeProvider) {
             templateUrl: 'templates/home.html',
             controller: 'GetStudentsList'
         }).
-        when('/addstudent', {
+        when('/addstu', {
             templateUrl: 'templates/addstudent.html',
             controller: 'AddStudent'
         }).
-        when('/allstudents', {
+        when('/allstu', {
             templateUrl: 'templates/allstudents.html',
             controller: 'GetStudentsList'
         }).

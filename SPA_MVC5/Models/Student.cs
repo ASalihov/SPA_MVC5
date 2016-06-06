@@ -16,7 +16,7 @@ namespace SPA_MVC5.Models
     {
         public int Id { get; set; }
         public string FirstName { get; set; }
-        public string LstName { get; set; }
+        public string LastName { get; set; }
         public Nullable<int> Age { get; set; }
         public string Gender { get; set; }
     }
